@@ -19,7 +19,7 @@ Once set up, open the `notebooks/` folder and start with `Init_Data_Analysis.ipy
 
 | Video | Link |
 |---|---|
-| Demo Video | <link> |
+| Demo Video | https://youtu.be/lsSXlFjFkb4 |
 | Technical Walkthrough | <link> |
 
 ## Evaluation
