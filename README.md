@@ -13,7 +13,15 @@ This question is grounded in BCI research, most notably Farwell & Donchin (1988)
 
 Please see [SETUP.md](./SETUP.md) for full installation instructions and requirements.
 
-Once set up, open the `notebooks/` folder and start with `Init_Data_Analysis.ipynb` to see how data is loaded/extracted and visualized. Then, see `FinalEvaluation.ipynb` for results of our experiment, or explore the individual analysis notebooks to see each individual model and experiments.  
+Once set up, you will see the following project structure: 
+ 
+ `src/` — Core source code shared across the project. Contains `Dataset.py` for data loading and preprocessing logic, and `Speller.py` for spelling decoding utility  used in the pipeline.
+ 
+`models/` — Standalone Python implementations of each classifier. Includes `Baseline.py`, `LDA.py`, and `P300NN.py`, along with `_noClassBalance` variants of LDA and the P300 neural network that skip class rebalancing for preprocessing impact verification.
+ 
+`notebooks/` — Jupyter notebooks for exploration, experimentation, and final evaluation. Start with `Init_Data_Analysis.ipynb` to understand how data is loaded and visualized. From there, explore `LDAFinal.ipynb` and `P300NNFinal.ipynb` for per-model results, the hyperparameter tuning and preprocessing test notebooks for experiment history, `ErrorAnalysis.ipynb` for a breakdown of failure cases, and finally `FinalEvaluation.ipynb` for the full end-to-end results of our experiment.
+ 
+`data/` — Contains the raw and labelled EEG dataset files used for training and evaluation.
 
 ## Video Links
 
