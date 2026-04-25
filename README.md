@@ -13,10 +13,7 @@ This question is grounded in BCI research, most notably Farwell & Donchin (1988)
 
 Please see [SETUP.md](./SETUP.md) for full installation instructions and requirements.
 
-To download the dataset please visit: https://duke.box.com/s/cf8bjhzwov9t5q2133zgg7dgcvj8xw2r , and then add it to your project repository.
-The dataset couldn't be hosted here due to Github File Size limits. 
-
-Once set up, open the `notebooks/` folder and start with `Init_Data_Analysis.ipynb` to see how data is loaded/extracted and visualized. Then, see `FinalEvaluation.ipynb` for results, or explore the individual analysis notebooks to see each individual model and experiments.  
+Once set up, open the `notebooks/` folder and start with `Init_Data_Analysis.ipynb` to see how data is loaded/extracted and visualized. Then, see `FinalEvaluation.ipynb` for results of our experiment, or explore the individual analysis notebooks to see each individual model and experiments.  
 
 ## Video Links
 
@@ -24,7 +21,6 @@ Once set up, open the `notebooks/` folder and start with `Init_Data_Analysis.ipy
 |---|---|
 | Demo Video | <link> |
 | Technical Walkthrough | <link> |
-
 
 ## Evaluation
 
