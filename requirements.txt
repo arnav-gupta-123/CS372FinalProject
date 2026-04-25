@@ -1,0 +1,15 @@
+numpy==1.26.4
+pandas==2.3.3
+matplotlib==3.10.9
+seaborn==0.13.2
+scipy==1.15.3
+scikit-learn==1.7.2
+mne==1.12.1
+tensorflow==2.21.0
+keras==3.12.1
+h5py==3.14.0
+joblib==1.5.3
+tqdm==4.67.3
+ipykernel==7.2.0
+jupyter_client==8.8.0
+jupyter_core==5.9.1
