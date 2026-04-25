@@ -25,6 +25,8 @@ Once set up, you will see the following project structure:
 
 ## Video Links
 
+Video Links are included below as the files exceeded GitHub's filesize limit. 
+
 | Video | Link |
 |---|---|
 | Demo Video | https://youtu.be/lsSXlFjFkb4 |
