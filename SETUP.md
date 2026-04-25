@@ -11,7 +11,6 @@
 Please make sure you have the full project folder with the following structure:
 
 ```
-├── data/
 ├── models/
 ├── notebooks/
 ├── src/
@@ -32,6 +31,10 @@ venv\Scripts\activate # Windows
 ```bash
 pip install -r requirements.txt
 ```
+
+### 4. Download Dataset
+Please download the zipped data here and unzip it in your repository: https://duke.box.com/s/cf8bjhzwov9t5q2133zgg7dgcvj8xw2r
+Unfortunately due to Github file size constraints, the data could not be hosted in this repository.
 
 ## Running the Project
 
