@@ -15,7 +15,6 @@ Please make sure you have the full project folder with the following structure:
 ├── models/
 ├── notebooks/
 ├── src/
-├── videos/
 ├── requirements.txt
 ```
 
@@ -35,7 +34,7 @@ pip install -r requirements.txt
 
 ## Running the Project
 
-Once dependencies are installed, navigate to the `notebooks/` folder and open the relevant notebook.
+Once dependencies are installed, navigate to the `notebooks/` folder and open the relevant notebook. Demo and Technical Video walkthroughs are linked in README.md
 
 ## Notes
 
