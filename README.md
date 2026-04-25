@@ -2,7 +2,7 @@
 
 ## What it Does
 
-We were curious about one question: how can brain signals actually be turned into something useful? Specifically, we wanted to see for ourselves whether EEG, the electrical signals your brain produces, could be used to spell words, just by thinking about letters on a screen. This led us to the P300 BCI speller, a classic paradigm in neuroscience where a person watches a grid of letters flashing on a screen, and their brain produces a small signal called the P300 at around 300ms after they see a letter that they want to spell. We built a full pipeline that takes raw EEG recordings, cleans and processes the signals, trains machine learning models to detect that P300 response, and ultimately decodes which character the person intended, turning brain waves into text.
+We were curious about one question: how can brain signals actually be turned into something useful? Specifically, we wanted to see for ourselves whether EEG, the electrical signals your brain produces, could be used to spell words, just by thinking about letters on a screen. This led us to the P300 BCI (Brain Computer Interface) speller, a classic paradigm in neuroscience where a person watches a grid of letters flashing on a screen, and their brain produces a small signal called the P300 at around 300ms after they see a letter that they want to spell. We built a full pipeline that takes raw EEG recordings, cleans and processes the signals, trains machine learning models to detect that P300 response, and ultimately decodes which character the person intended, turning brain waves into text.
 
 ## Quick Start
 
@@ -21,7 +21,7 @@ Once set up, you will see the following project structure:
 ### Research Question/Goal
 
 Can machine learning models reliably detect the P300 brainwave response from noisy EEG data well enough to decode intended characters and how do classical approaches like LDA compare to deep learning ones like CNNs in this setting?
-This question is grounded in BCI research, most notably Farwell & Donchin (1988), who first demonstrated that P300 signals could be used to spell words non-invasively. We wanted to reproduce and explore this pipeline ourselves using a modern open dataset (bigP3BCI, PhysioNet 2025) and compare how well different ML approaches hold up across participants with varying signal quality. The ability to decode intended characters from brainwaves has major implications for people with severe motor disabilities, such as those with ALS, who may have no other means of communication. Developing reliable, adaptable BCI spelling systems could meaningfully restore quality of life for these individuals.
+This question is grounded in BCI  research, most notably Farwell & Donchin (1988), who first demonstrated that P300 signals could be used to spell words non-invasively. We wanted to reproduce and explore this pipeline ourselves using a modern open dataset (bigP3BCI, PhysioNet 2025) and compare how well different ML approaches hold up across participants with varying signal quality. The ability to decode intended characters from brainwaves has major implications for people with severe motor disabilities, such as those with ALS, who may have no other means of communication. Developing reliable, adaptable BCI spelling systems could meaningfully restore quality of life for these individuals.
 
 ### How the P300 Speller Works
  
@@ -55,7 +55,11 @@ We compared three approaches — a constant baseline, an LDA classifier, and a c
 
 ![Model Comparison](notebooks/modelcomparison.png)
 
+The Model Comparison plot above highlights how each algorithm (Baseline, P300NN, and LDA) performs on each of the three metrics. It shows that learning-based approaches outperform simpler baselines, and demonstrates the strong potential of machine learning methods for enabling spelling systems in brain-computer interfaces (BCIs).
+
 ![Participants Comparison](notebooks/participantcomparison.png)
+
+The Participants Comparison plot above illustrates variability in performance across different subjects, emphasizing the challenges of generalization in EEG-based brain-computer interfaces due to individual differences in neural signals.
 
 ## Individual Contributions
 
