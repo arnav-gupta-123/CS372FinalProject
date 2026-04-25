@@ -31,7 +31,7 @@ Once set up, open the `notebooks/` folder and start with `Init_Data_Analysis.ipy
 We evaluated our models using three metrics that directly reflect whether the system can decode brain signals into the correct letters:
 
 - AUC-ROC — how well the model separates target from non-target EEG epochs
-- Classification Accuracy — percentage of correctly identified P300 events
+- Model Classification Accuracy — percentage of correctly identified P300 events
 - Character/Spelling Accuracy — percentage of characters correctly decoded end-to-end
 
 We compared three approaches — a constant baseline, an LDA classifier, and a custom CNN (P300NN) — all trained and tested on the same data and preprocessing pipeline. Full results are in `notebooks/FinalEvaluation.ipynb`.
