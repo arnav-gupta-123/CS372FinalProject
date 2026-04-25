@@ -4,9 +4,17 @@
 
 We were curious about one question: how can brain signals actually be turned into something useful? Specifically, we wanted to see for ourselves whether EEG, the electrical signals your brain produces, could be used to spell words, just by thinking about letters on a screen. This led us to the P300 BCI speller, a classic paradigm in neuroscience where a person watches a grid of letters flashing on a screen, and their brain produces a small signal called the P300 at around 300ms after they see a letter that they want to spell. We built a full pipeline that takes raw EEG recordings, cleans and processes the signals, trains machine learning models to detect that P300 response, and ultimately decodes which character the person intended, turning brain waves into text.
 
+## Research Question/Goal
+
+Can machine learning models reliably detect the P300 brainwave response from noisy EEG data well enough to decode intended characters and how do classical approaches like LDA compare to deep learning ones like CNNs in this setting?
+This question is grounded in BCI research, most notably Farwell & Donchin (1988), who first demonstrated that P300 signals could be used to spell words non-invasively. We wanted to reproduce and explore this pipeline ourselves using a modern open dataset (bigP3BCI, PhysioNet 2025) and compare how well different ML approaches hold up across participants with varying signal quality.
+
 ## Quick Start
 
 Please see [SETUP.md](./SETUP.md) for full installation instructions and requirements.
+
+To download the dataset please visit: https://duke.box.com/s/cf8bjhzwov9t5q2133zgg7dgcvj8xw2r , and then add it to your project repository.
+The dataset couldn't be hosted here due to Github File Size limits. 
 
 Once set up, open the `notebooks/` folder and start with `Init_Data_Analysis.ipynb` to see how data is loaded/extracted and visualized. Then, see `FinalEvaluation.ipynb` for results, or explore the individual analysis notebooks to see each individual model and experiments.  
 
