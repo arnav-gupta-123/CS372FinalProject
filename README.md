@@ -53,6 +53,10 @@ We evaluated our models using three metrics that directly reflect whether the sy
 
 We compared three approaches — a constant baseline, an LDA classifier, and a custom CNN (P300NN) — all trained and tested on the same data and preprocessing pipeline. Full results are in `notebooks/FinalEvaluation.ipynb`.
 
+![Model Comparison](.notebooks/modelcomparison.png)
+
+![Participants Comparison](.notebooks/participantscomparison.png)
+
 ## Individual Contributions
 
 | Contributor | Contributions |
