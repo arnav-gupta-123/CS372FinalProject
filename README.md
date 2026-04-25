@@ -55,7 +55,7 @@ We compared three approaches — a constant baseline, an LDA classifier, and a c
 
 ![Model Comparison](notebooks/modelcomparison.png)
 
-![Participants Comparison](notebooks/participantscomparison.png)
+![Participants Comparison](notebooks/participantcomparison.png)
 
 ## Individual Contributions
 
