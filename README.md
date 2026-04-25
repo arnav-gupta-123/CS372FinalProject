@@ -16,7 +16,7 @@ Once set up, you will see the following project structure:
  
 `notebooks/` — Jupyter notebooks for exploration, experimentation, and final evaluation. Start with `Init_Data_Analysis.ipynb` to understand how data is loaded and visualized. From there, explore `LDAFinal.ipynb` and `P300NNFinal.ipynb` for per-model results, the hyperparameter tuning and preprocessing test notebooks for experiment history, `ErrorAnalysis.ipynb` for a breakdown of failure cases, and finally `FinalEvaluation.ipynb` for the full end-to-end results of our experiment.
  
-`data/` — Contains the raw and labelled EEG dataset files used for training and evaluation.
+`data/` — Contains the raw and labelled EEG dataset files used for training and evaluation. For each subject, we trained models on their training partition and tested on their test partition. 
 
 ### Research Question/Goal
 
