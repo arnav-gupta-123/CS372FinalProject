@@ -41,7 +41,7 @@ Video Links are included below as the files exceeded GitHub's filesize limit.
 | Video | Link |
 |---|---|
 | Demo Video | https://youtu.be/lsSXlFjFkb4 |
-| Technical Walkthrough | <link> |
+| Technical Walkthrough | https://youtu.be/714VuwKVd_M |
 
 ## Evaluation
 
