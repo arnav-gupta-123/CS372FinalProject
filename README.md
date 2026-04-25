@@ -7,7 +7,7 @@ We were curious about one question: how can brain signals actually be turned int
 ## Research Question/Goal
 
 Can machine learning models reliably detect the P300 brainwave response from noisy EEG data well enough to decode intended characters and how do classical approaches like LDA compare to deep learning ones like CNNs in this setting?
-This question is grounded in BCI research, most notably Farwell & Donchin (1988), who first demonstrated that P300 signals could be used to spell words non-invasively. We wanted to reproduce and explore this pipeline ourselves using a modern open dataset (bigP3BCI, PhysioNet 2025) and compare how well different ML approaches hold up across participants with varying signal quality.
+This question is grounded in BCI research, most notably Farwell & Donchin (1988), who first demonstrated that P300 signals could be used to spell words non-invasively. We wanted to reproduce and explore this pipeline ourselves using a modern open dataset (bigP3BCI, PhysioNet 2025) and compare how well different ML approaches hold up across participants with varying signal quality. The ability to decode intended characters from brainwaves has major implications for people with severe motor disabilities, such as those with ALS, who may have no other means of communication. Developing reliable, adaptable BCI spelling systems could meaningfully restore quality of life for these individuals.
 
 ## How the P300 Speller Works
  
